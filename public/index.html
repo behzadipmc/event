@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+        <script type="application/javascript">
+            var socket=new io.connect('localhost',{query:'id=5&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjUsImlzcyI6Imh0dHA6XC9cL3BhcnNpYW4tZGVtby5pclwvY29yZVwvYXBpXC9pbmRleFwvbG9naW4iLCJpYXQiOjE1MDU1NzI2MTEsImV4cCI6MTUwNTc0NTQxMSwibmJmIjoxNTA1NTcyNjExLCJqdGkiOiI3YTI1MTQ1YmU2NDA4ZTU2YTZlMzJmMzFhYTBhOWJkZSJ9.bzUwrtZnSv--Ekg3fb1hImwk3AdRjADDcfaje4tSwFE'});
+            socket.on('token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjUsImlzcyI6Imh0dHA6XC9cL3BhcnNpYW4tZGVtby5pclwvY29yZVwvYXBpXC9pbmRleFwvbG9naW4iLCJpYXQiOjE1MDU1NzI2MTEsImV4cCI6MTUwNTc0NTQxMSwibmJmIjoxNTA1NTcyNjExLCJqdGkiOiI3YTI1MTQ1YmU2NDA4ZTU2YTZlMzJmMzFhYTBhOWJkZSJ9.bzUwrtZnSv--Ekg3fb1hImwk3AdRjADDcfaje4tSwFE',function (message) {
+               console.log(message);
+            });
+        </script>
+    </body>
+</html>

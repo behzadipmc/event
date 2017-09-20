@@ -1,0 +1,19 @@
+{
+  "name": "sacting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "curl": "^0.1.4",
+    "express": "^4.15.4",
+    "node-libcurl": "^1.2.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.3"
+  }
+}
